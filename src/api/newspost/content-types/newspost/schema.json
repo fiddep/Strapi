@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsposts",
+  "info": {
+    "singularName": "newspost",
+    "pluralName": "newsposts",
+    "displayName": "Newspost"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "visible": {
+      "type": "boolean"
+    },
+    "ingress": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
