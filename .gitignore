@@ -112,3 +112,8 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+# Strapi v5
+.strapi
+dist
+types/generated
