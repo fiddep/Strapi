@@ -32,6 +32,11 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
